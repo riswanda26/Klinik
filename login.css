@@ -1,0 +1,145 @@
+* {margin: 0; padding: 0;}
+* {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+body{
+	padding: 0;
+	margin:0;
+}
+
+#content {
+	width: 100%;
+	top:100px;
+	margin: auto;
+	overflow: hidden;
+	font-size: 14px;	
+    background-color: #CCFF99;
+	height: 700px;
+    font-family: verdana;
+}
+#header{
+	height:130px;
+	margin:auto;
+	border:0px solid black;
+    background-color : yellowgreen;
+}
+#garis{
+	height: 10px;
+	width: 100%;
+	margin:auto;
+	border-radius:3px;
+	background-color:green;
+}
+#nav{
+	width:auto;
+	margin:auto;
+	height:1000px;
+	border:1px solid red;
+}
+
+.logo{
+	width: 85px;
+	float:left;
+	height: 85px;
+	border: 0px solid red;
+	margin: 1% 0% 2% 4%;
+    background-image: url(logo.png);
+    background-size: 85px;
+    background-repeat: no-repeat;
+}
+
+
+.title{
+	width: 600px;
+	float: left;
+	height: 85px;
+	margin: 1% 0% 0% 0%;
+    text-align: center;
+    font-size: 18px;
+    
+}
+
+.title h1{
+    font-family: fantasy;
+    color: white;
+}
+
+.content-right {
+	float: right;
+	width: 100%;
+    border : 0px solid black;
+    background-color : yellowgreen;
+    padding-left: 20px;
+	height: 700px;
+}
+
+.utama{
+     border : 0px solid black;
+    width: 50%;
+    height: inherit;
+    
+    color: black;
+	text-align: justify;
+    margin-left: 25%;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    background-color: #CCFF99;
+}
+
+
+#foother{
+	height:400px;
+	margin:auto;
+	background-color:grey;
+}
+
+
+.login a{
+    background-color: green;
+    border-radius: 5px;
+    width: 150px;
+    height: 55px;
+    text-decoration: none;
+    color: white;
+    margin-left: 230px;
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+.form{
+    margin-left: 25%;
+    background-color: yellowgreen;
+    border-radius: 5px;
+    height: 375px;
+    width: 350px;
+}
+
+.judul{
+    width: 100%;
+    border:0px solid black;
+    color: white;
+    margin-right: 15%;
+    height: 50px;
+    font-size: 25px;
+}
+
+.form input{
+    margin-top: 10px;
+    width: 90%;
+    margin-left: 4%;
+    height: 40px;
+}
+
+.form button{
+    color: white;
+    background-color: green;
+    width: 200px;
+    height: 40px;
+    margin-left: 22%;
+    margin-top: 5%;
+}

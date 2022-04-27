@@ -1,0 +1,393 @@
+* {margin: 0; padding: 0;}
+* {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+body{
+	padding: 0;
+	margin:0;
+}
+
+#content {
+	width: 100%;
+	top:100px;
+	margin: auto;
+	overflow: hidden;
+	font-size: 14px;	
+    background-color: #CCFF99;
+	height: 600px;
+    font-family: verdana;
+}
+#header{
+	height:130px;
+	margin:auto;
+	border:1px solid black;
+    background-color : yellowgreen;
+}
+#garis{
+	height: 10px;
+	width: 100%;
+	margin:auto;
+	border-radius:3px;
+	background-color:green;
+}
+#nav{
+	width:auto;
+	margin:auto;
+	height:1000px;
+	border:1px solid red;
+}
+
+.logo{
+	width: 85px;
+	float:left;
+	height: 85px;
+	border: 0px solid red;
+	margin: 1% 0% 2% 4%;
+    background-image: url(logo.png);
+    background-size: 85px;
+    background-repeat: no-repeat;
+}
+
+
+.title{
+	width: 600px;
+	float: left;
+	height: 90px;
+	margin: 1% 0% 0% 0%;
+    text-align: center;
+    font-size: 18px;
+    
+}
+
+.title h1{
+    font-family: fantasy;
+    color: white;
+}
+
+.logout{
+	width: 80px;
+	float: right;
+	height: 20px;
+	border: 0px solid red;
+	margin: 2% 1% 0% 2%;
+}
+.boxsidebar{
+    width: 90%;
+    height: 20px;
+    margin: 4px auto;
+    text-align: center;
+    background-color: green;
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 15px;
+    color: cornsilk;
+    padding-top: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+	font-size: 17px;
+}
+
+.boxsidebar a{
+    color: #ffffff ;
+    text-decoration: none;
+	font-size: 17px;
+}
+
+.boxsidebar a:hover{
+    color: #ffffff ;
+    text-decoration: none;
+	font-size: 17px;
+    
+}
+
+.content-left {
+	float: left;
+	width: 200px;
+    margin-top: 3px;
+}
+
+.content-right {
+	float: right;
+	width: 1100px;
+    border : 1px solid black;
+    background-color : yellowgreen;
+    padding-left: 20px;
+    margin: 5px 5px 5px 5px;
+	height: 590px;
+}
+
+.utama{
+     border : 1px solid black;
+    width: 1030px;
+    height: inherit;
+    float: left;
+    color: black;
+	text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #CCFF99;
+}
+
+
+#foother{
+	height:400px;
+	margin:auto;
+	background-color:grey;
+}
+
+.logout{
+    background-color: green;
+    color: white;
+    border-radius: 3px;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+    text-decoration: none;
+      text-align: center;
+}
+.logout a{
+    background-color: green;
+    color: white;
+    border-radius: 3px;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+   text-decoration: none;
+    text-align: center;
+    
+}
+
+/*form css-----------------------------------------------------------------------------------*/
+.content-right h1{
+		padding-left: 160px;
+		padding-top: 30px;
+		}
+		.form_hint, .required_notification {font-size: 15px;}
+
+.contact_form {
+	width: 900px;
+	
+	}
+.contact_form ul {
+	list-style: none;	
+}
+
+.contact_form li{
+	padding:7px; 
+	position:relative;
+}
+
+.contact_form label {
+	width:150px;
+	margin-top: 3px;
+	display:inline-block;
+	float:left;
+	padding:3px;
+	font-size: 20px;
+}
+
+.contact_form input {
+	height:20px; 
+	width:300px; 
+	padding:5px 8px;
+	font-size: 16px;
+}
+
+.contact_form input.pilih {
+	width:18px;
+	
+}
+.contact_form input.pilih2 {
+	width:15px;
+}
+
+.contact_form textarea {padding:0px; width:318px;}
+.contact_form button {margin-left:140px; font-size:16px}
+	/* form element visual styles */
+	.contact_form input, .contact_form textarea { 
+		border:1px solid #aaa;
+		box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+		border-radius:2px;
+		-moz-transition:  padding .25s; 
+		-webkit-transition: padding .25s; 
+		-o-transition: padding .25s;
+		transition: padding .25s;
+	}
+	.contact_form input:focus, .contact_form textarea:focus {
+		background: #fff; 
+		border:1px solid #F00; 
+		box-shadow: 0 0 3px #900; 
+		padding-right:70px;
+	}
+
+
+.contact_form input:required, .contact_form textarea:required {
+	background: #fff url(red_asterisk.png) no-repeat 98% center;
+}
+.contact_form input:required:valid, .contact_form textarea:required:valid {
+	background: #fff url(valid.png) no-repeat 98% center;
+	box-shadow: 0 0 5px #5cd053;
+	border-color: #28921f;
+}
+.contact_form input:focus:invalid, .contact_form textarea:focus:invalid {
+	background: #fff url(invalid.png) no-repeat 98% center;
+	box-shadow: 0 0 5px #d45252;
+	border-color: #b03535
+}
+
+		.form_hint {
+		background: #d45252;
+		border-radius: 3px 3px 3px 3px;
+		color: white;
+		margin-left:8px;
+		padding: 1px 6px;
+		z-index: 999; /* hints stay above all other elements */
+		position: absolute; /* allows proper formatting if hint is two lines */
+		display: none;
+		}
+		.form_hint::before {
+		content: "\25C0";
+		color:#d45252;
+		position: absolute;
+		top:1px;
+		left:-6px;
+		}
+		.contact_form input:focus + .form_hint {display: inline;}
+		.contact_form input:required:valid + .form_hint {background: #28921f;}
+		.contact_form input:required:valid + .form_hint::before {color:#28921f;}
+
+		button.submit {
+		background-color: green;
+		border: 0px solid green;
+		border-bottom: 1px solid green;
+		border-radius: 3px;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		color: white;
+		font-weight: bold;
+		padding: 8px 20px;
+		text-align: center;
+		margin-left: 250px;
+		}
+		button.submit:hover {
+		opacity:.85;
+		cursor: pointer; 
+		}
+		button.submit:active {
+		border: 1px solid green;
+		}
+
+/*tabel data css*/
+.judul h1{
+    float: center;
+    border: 0px solid red;
+    border-radius: 30px;
+    background-color: #35A9DB;
+    width: 200px;
+    height: 20px;
+    color: white;
+    font-size: 20px;
+    margin-top: 2%;
+    margin-left: 28%; 
+    padding-right: 10%;
+    padding-bottom: 3%
+}
+
+.table1 {
+    font-family: sans-serif;
+    color: #444;
+    margin-left: 20px;
+    width: 800px;
+    height: 500px;
+    border: 1px solid #f2f5f7;
+    overflow:auto;
+}
+.table1 tbody {
+clear: both;
+border: 1px solid #FF6600;
+height: 400px;
+overflow:auto;
+float:left;
+width:900px;
+}
+ 
+.table1 tr th{
+    background: #35A9DB;
+    color: #fff;
+    font-weight: normal;
+}
+ 
+.table1, th, td {
+    padding: 8px 20px;
+    text-align: center;
+}
+ 
+ 
+.table1 tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.table1 tr:nth-child(odd) {
+    background-color: #c0c0c0;
+}
+
+/* daftar poli css*/
+
+.umum {
+    margin-left: 36%;
+    border: 0px solid red;
+    width: 280px;
+    height: 50px;
+    background-color: #35A9DB;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+}
+.umum a{
+    margin-left: 23%;
+    background-color: #35A9DB;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    
+}
+.bumil {
+    margin-top: 1%;
+    margin-left: 36%;
+    border: 0px solid red;
+     width: 280px;
+    height: 50px;
+    background-color: #35A9DB;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+}
+.bumil a{
+    margin-top: 1%;
+    margin-left: 23%;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.kb {
+    margin-top: 1%;
+    margin-left: 36%;
+    border: 0px solid red;
+    width: 280px;
+    height: 50px;
+    background-color: #35A9DB;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+     text-align: center;
+}
+.kb a{
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 3%;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
